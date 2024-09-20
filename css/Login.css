@@ -1,0 +1,98 @@
+body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background-image: url("../picture/R.jpeg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#Login{
+    width: 350px;
+    height: 400px;
+    background-color: rgba(0,0,0,0);
+    margin:120px 0px 0px 630px;
+    border: 1px solid rgb(255, 255, 255,0.2);
+    border-radius: 10px;
+    position: relative;
+}
+#h2{
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+}
+#Username{
+    position: absolute;
+    height: 40px;
+    width: 85%;
+    margin-left: 40px;
+    background:transparent;
+    display: block;
+}
+#Username input{
+     height:100%;
+     width: 90%;
+     border-radius: 15px;
+     background: transparent;
+     color: #fff;
+}
+#Password{
+    position: absolute;
+    height: 40px;
+    width: 85%;
+    margin-left: 40px;
+    background:transparent;
+    display: block;
+    margin-top: 60px;
+
+}
+#Password input{
+    height:100%;
+    width: 90%;
+    border-radius: 15px;
+    background: transparent;
+    color:#fff;
+}
+#Username input::placeholder{
+    color: #fff;
+}
+#Password input::placeholder{
+color:#fff ;
+}
+i{
+    position: absolute;
+    right: 40px;
+    top:50% ;
+    transform:translateY(-50%);
+    color: #fff;
+}
+#checkbox{
+   margin: 135px 0px 0px 38px;
+}
+#checkbox label{
+    color: #fff;
+    font-size: 15px;
+}
+#checkbox a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 55px;
+    font-size: 15px;
+}
+#btn-login{
+    margin: 30% 0px 0px 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 270px;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+form{
+  margin: 140px 0px 0px 80px;
+  color:rgba(255, 255, 255, 0.9);
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
